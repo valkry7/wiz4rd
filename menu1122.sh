@@ -205,8 +205,8 @@ echo -e "    ${zx} NGINX$NC : $status_nginx ${zx} WS-EPRO$NC : $status_ws_epro $
 
 #echo -e " ${z}│ ${NC}${z} WS-EPRO$NC : $status_ws_epro" "    ${z} DROPBEAR$NC : $status_dropbear" "     ${z} HAPROXY$NC : $status_haproxy   $NC${z}│$NC" 
 echo -e "                        ${BG_RED}ACCOUNT INFO${NC}"
-echo -e "          SSH & OPENVPN : $ssh1 TROJAN : $trb  SHADOWSOCKS-R : $ssa"
-echo -e "                         VLESS : $vla VMESS : $vma"
+echo -e "        SSH & OPENVPN : $ssh1 TROJAN : $trb  SHADOWSOCKS-R : $ssa"
+echo -e "                        VLESS : $vla VMESS : $vma"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC   [${green}01${NC}] ssh / Libev              [${green}07${NC}] check Bandwith    ${z}  │$NC" 
 echo -e " ${z}│$NC   [${green}02${NC}] vmess / xray             [${green}08${NC}] Test SpedTest     ${z}  │$NC"    
@@ -224,8 +224,8 @@ echo -e " ${z}│$NC${z} Dev.Sc$NC        ${z}=$NC Lunatic Tunneling"
 echo -e " ${z}│$NC${z} Client/Regist$NC ${z}=$NC $username [$sts]"
 echo -e " ${z}│$NC${z} Exp Script$NC    ${z}=$NC $exp / $certifacate Days$NC "
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e "                         ${vers}"
-echo -e "                         ${TZ} ${NC}"
+echo -e "                        ${vers}"
+echo -e "                        ${TZ} ${NC}"
 echo
 read -p " Select Options 1/12 : " wZtXtQ
 echo -e ""
