@@ -6,6 +6,7 @@ l='\033[0;37m'
 BGX="\033[42m"
 CYAN="\033[96m"
 z="\033[92;1m" # // Hijau
+zx="\033[97;1m" # // putih
 RED='\033[0;31m'
 NC='\033[0m'
 gray="\e[1;30m"
@@ -14,7 +15,7 @@ green='\033[1;32m'
 grenbo="\e[92;1m"
 purple="\033[1;95m"
 YELL='\033[0;33m'
-
+cyan="\033[1;36m"
 
 # // installer Udp
 UDPX="https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1S3IE25v_fyUfCLslnujFBSBMNunDHDk2"
@@ -70,8 +71,8 @@ mai="datediff "$Exp" "$DATE""
 # Status ExpiRED Active | Geo Project
 
 # // AKTIVATED & EXPIRED
-Info="<< ${cyan}[✓]${green} Activated${NC} >>"
-Error="<< ${cyan}[ X ]{RED} Expired ${NC} >>"
+Info="${cyan}[✓]${green} Activated${NC}"
+Error="${cyan}[X]{RED} Expired ${NC}"
 #//
 today=`date -d "0 days" +"%Y-%m-%d"`
 Exp1=$(curl -sS https://raw.githubusercontent.com/valkry7/Regist/MONSTER/afk | grep $MYIP | awk '{print $3}')
@@ -176,10 +177,10 @@ vers="version.Sc 3.09"
 # // ----->>>
 r="\033[1;31m"  #REDTERANG
 a=" ${z}ACCOUNT PREMIUM" 
-BG_RED="\033[43;1m"
+BG_RED="\033[45;1m"
 echo -e " "
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[96m                     Lunatic Tunneling                     $NC${z}│$NC"
+echo -e " ${z}│$NC\033[5;31m                     Lunatic Tunneling                    $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC • $NC${z} System OS ${NC}     ${z}=$NC $MODEL${NC}"
@@ -198,7 +199,7 @@ echo -e " ${z}╰═════════════════════
 #echo -e "        ${z}❒════════════════════════════════════════════❒${NC}" 
 #echo -e "                ${KIRI}${z}Lunatic  Tunneling${z}${KANAN}"
 #echo -e "                ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
-echo -e "    ${z} NGINX$NC : $status_nginx ${z} WS-EPRO$NC : $status_ws_epro ${z} DROPBEAR$NC : $status_dropbear ${z} HAPROXY$NC : $status_haproxy   $NC${z}$NC" 
+echo -e "    ${zx} NGINX$NC : $status_nginx ${zx} WS-EPRO$NC : $status_ws_epro ${z} DROPBEAR$NC : $status_dropbear ${zx} HAPROXY$NC : $status_haproxy   $NC${zx}$NC" 
 
 
 
@@ -214,12 +215,12 @@ echo -e "                     ${z}SHADOWSOCKS${NC}$y   ➤$NC $ssa${NC}   "
 # echo -e "                     ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
 echo -e "                   ${z}╰════════════════╯$NC"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC   [${green}01${NC}] ssh / Libev             [${green}07${NC}] check Bandwith    ${z}    │$NC" 
-echo -e " ${z}│$NC   [${green}02${NC}] vmess / xray            [${green}08${NC}] Test SpedTest     ${z}    │$NC"    
-echo -e " ${z}│$NC   [${green}03${NC}] vLess / xray            [${green}09${NC}] Limiting Speed    ${z}    │$NC"  
-echo -e " ${z}│$NC   [${green}04${NC}] Trojan / xray           [${green}10${NC}] Backup \ Restored ${z}    │$NC"
-echo -e " ${z}│$NC   [${green}05${NC}] shadowsock              [${green}11${NC}] Gett Bot Tele.    ${z}    │$NC"
-echo -e " ${z}│$NC   [${green}06${NC}] Manager/ Settings.      [${green}12${NC}] Update Sc.Version ${z}    │$NC"
+echo -e " ${z}│$NC   [${green}01${NC}] ssh / Libev              [${green}07${NC}] check Bandwith    ${z}  │$NC" 
+echo -e " ${z}│$NC   [${green}02${NC}] vmess / xray             [${green}08${NC}] Test SpedTest     ${z}  │$NC"    
+echo -e " ${z}│$NC   [${green}03${NC}] vLess / xray             [${green}09${NC}] Limiting Speed    ${z}  │$NC"  
+echo -e " ${z}│$NC   [${green}04${NC}] Trojan / xray            [${green}10${NC}] Backup \ Restored ${z}  │$NC"
+echo -e " ${z}│$NC   [${green}05${NC}] shadowsock               [${green}11${NC}] Gett Bot Tele.    ${z}  │$NC"
+echo -e " ${z}│$NC   [${green}06${NC}] Manager/ Settings.       [${green}12${NC}] Update Sc.Version ${z}  │$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 #echo -e " ${z}╭════════════════╮╭══════════════════╮╭════════════════════╮${NC}"
 #echo -e " ${z}│ ${NC}${z} SSH$NC : $status_ssh" "        ${z} NGINX$NC : $status_nginx" "        ${z} XRAY$NC : $status_xray      $NC${z}│$NC" 
@@ -227,11 +228,11 @@ echo -e " ${z}╰═════════════════════
 #echo -e " ${z}╰════════════════╯╰══════════════════╯╰════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC${z} Dev.Sc$NC        ${z}=$NC Lunatic Tunneling"
-echo -e " ${z}│$NC${z} Client/Regist$NC ${z}=$NC $username [ $sts ]"
+echo -e " ${z}│$NC${z} Client/Regist$NC ${z}=$NC $username $sts"
 echo -e " ${z}│$NC${z} Exp Script$NC    ${z}=$NC $exp / $certifacate Days$NC "
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
-echo -e "                            ${vers}"
-echo -e "                            ${TZ} ${NC}"
+echo -e "                         ${vers}"
+echo -e "                         ${TZ} ${NC}"
 echo
 read -p " Select Options 1/12 : " wZtXtQ
 echo -e ""
