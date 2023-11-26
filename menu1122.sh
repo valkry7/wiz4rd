@@ -71,8 +71,8 @@ mai="datediff "$Exp" "$DATE""
 # Status ExpiRED Active | Geo Project
 
 # // AKTIVATED & EXPIRED
-Info="${cyan}[✓]${green} Activated${NC}"
-Error="${cyan}[X]{RED} Expired ${NC}"
+Info="${green}Activated${NC}"
+Error="${RED}Expired ${NC}"
 #//
 today=`date -d "0 days" +"%Y-%m-%d"`
 Exp1=$(curl -sS https://raw.githubusercontent.com/valkry7/Regist/MONSTER/afk | grep $MYIP | awk '{print $3}')
@@ -180,7 +180,7 @@ a=" ${z}ACCOUNT PREMIUM"
 BG_RED="\033[45;1m"
 echo -e " "
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
-echo -e " ${z}│$NC\033[5;31m                     Lunatic Tunneling                    $NC${z}│$NC"
+echo -e " ${z}│$NC\033[5;33m                     Lunatic Tunneling                    $NC${z}│$NC"
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC • $NC${z} System OS ${NC}     ${z}=$NC $MODEL${NC}"
@@ -199,21 +199,14 @@ echo -e " ${z}╰═════════════════════
 #echo -e "        ${z}❒════════════════════════════════════════════❒${NC}" 
 #echo -e "                ${KIRI}${z}Lunatic  Tunneling${z}${KANAN}"
 #echo -e "                ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
-echo -e "    ${zx} NGINX$NC : $status_nginx ${zx} WS-EPRO$NC : $status_ws_epro ${z} DROPBEAR$NC : $status_dropbear ${zx} HAPROXY$NC : $status_haproxy   $NC${zx}$NC" 
+echo -e "    ${zx} NGINX$NC : $status_nginx ${zx} WS-EPRO$NC : $status_ws_epro ${zx} DROPBEAR$NC : $status_dropbear ${zx} HAPROXY$NC : $status_haproxy   $NC${zx}$NC" 
 
 
 
 #echo -e " ${z}│ ${NC}${z} WS-EPRO$NC : $status_ws_epro" "    ${z} DROPBEAR$NC : $status_dropbear" "     ${z} HAPROXY$NC : $status_haproxy   $NC${z}│$NC" 
 echo -e "                        ${BG_RED}ACCOUNT${NC}"
-echo -e "                   ${z}╭════════════════╮$NC"
-# echo -e "                     ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
-echo -e "                     ${z}SSH & OVPN${NC}$y    ➤$NC $ssh1${NC}  " 
-echo -e "                     ${z}VLESS / XRAY${NC}$y  ➤$NC $vla$NC     " 
-echo -e "                     ${z}VMESS / XRAY${NC}$y  ➤$NC $vma$NC     " 
-echo -e "                     ${z}TROJAN / XRAY${NC}$y ➤$NC $trb${NC}   "
-echo -e "                     ${z}SHADOWSOCKS${NC}$y   ➤$NC $ssa${NC}   "
-# echo -e "                     ${LURUS}${LURUS2}${LURUS}${LURUS2}${LURUS}${LURUS2}"
-echo -e "                   ${z}╰════════════════╯$NC"
+echo -e "                SSH & OPENVPN : $ssh1 TROJAN : $trb  SHADOWSOCKS-R : $ssa"
+echo -e "                            VLESS : $vla VMESS : $vma"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC   [${green}01${NC}] ssh / Libev              [${green}07${NC}] check Bandwith    ${z}  │$NC" 
 echo -e " ${z}│$NC   [${green}02${NC}] vmess / xray             [${green}08${NC}] Test SpedTest     ${z}  │$NC"    
@@ -228,7 +221,7 @@ echo -e " ${z}╰═════════════════════
 #echo -e " ${z}╰════════════════╯╰══════════════════╯╰════════════════════╯${NC}"
 echo -e " ${z}╭══════════════════════════════════════════════════════════╮${NC}"
 echo -e " ${z}│$NC${z} Dev.Sc$NC        ${z}=$NC Lunatic Tunneling"
-echo -e " ${z}│$NC${z} Client/Regist$NC ${z}=$NC $username $sts"
+echo -e " ${z}│$NC${z} Client/Regist$NC ${z}=$NC $username [$sts]"
 echo -e " ${z}│$NC${z} Exp Script$NC    ${z}=$NC $exp / $certifacate Days$NC "
 echo -e " ${z}╰══════════════════════════════════════════════════════════╯${NC}"
 echo -e "                         ${vers}"
