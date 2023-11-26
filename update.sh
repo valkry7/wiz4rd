@@ -36,7 +36,7 @@ fun_bar() {
 }
 res1() {
     wget https://raw.githubusercontent.com/valkry7/wiz4rd/MONSTER/limit/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/nishikazekazata/hah/main/epro/epro" ; chmod +x /usr/bin/enc
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/valkry7/wiz4rd/MONSTER/epro/epro" ; chmod +x /usr/bin/enc
     7z e -paskykenza123 menu.zip
     unzip menu.zip
     chmod +x menu/*
@@ -49,7 +49,7 @@ res1() {
 netfilter-persistent
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m          UPDATE SCRIPT Dragon Emperor       \e[0m"
+echo -e " \e[1;97;101m          UPDATE SCRIPT       \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 echo -e "  \033[1;91m update script service\033[1;37m"
