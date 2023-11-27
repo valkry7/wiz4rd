@@ -28,20 +28,10 @@
 - OVPN SSL/TCP 1194
 - SLOWDNS 5300
 ```
-
-### SETTING CLOUDFLARE
-```
-- SSL/TLS : FULL
-- SSL/TLS Recommender : OFF
-- GRPC : ON
-- WEBSOCKET : ON
-- Always Use HTTPS : OFF
-- UNDER ATTACK MODE : OFF
-```
-### Auther
+### Author
 ```
 ```
-RidwanKyt :<a href="https://t.me/Renzy_Store" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
+LunaticTunnel :<a href="https://t.me/LunaticTunnel" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 ```
 ```
 ``
